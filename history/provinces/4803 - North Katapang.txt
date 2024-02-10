@@ -1,0 +1,23 @@
+culture = bornean
+religion = kaharingan
+capital = "Meliau"
+trade_goods = unknown
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 40
+native_ferocity = 8
+native_hostileness = 5
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+1444.1.1 = { 
+	owner = SMB
+	controller = SMB
+	add_core = SMB
+	city = yes
+	trade_goods = Grain
+}
+1521.1.1 = { discovered_by = POR }
+is_city = no
