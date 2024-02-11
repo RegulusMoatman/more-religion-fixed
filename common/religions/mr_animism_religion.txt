@@ -133,6 +133,35 @@ animism = {
 		}		
 		heretic = { JINGI HALAIKA }	
 	}
+	phi = { #Lao Folk Faith
+		color = { 255 33 33 }
+		icon = 37
+		country = {
+			tolerance_own = 1
+			war_exhaustion = -0.05
+		}
+		country_as_secondary = {
+			tolerance_heathen = 2
+			global_unrest = -2
+		}		
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		uses_church_power = yes
+		  aspects = {
+			phi_fa
+			phi_then
+			phi_naga
+			phi_garuda
+			phi_khwan
+			phi_bun
+			phi_ricegoddess
+			phi_forest
+		}
+		aspects_name = PHI_ASPECTS
+		heretic = { AKHOM }
+	}
 
 	harmonized_modifier = harmonized_pagan
 

@@ -1,0 +1,21 @@
+#587 - Kengtung
+
+owner = HSE
+controller = HSE
+culture = shan
+religion = phi
+capital = "Kengtung"
+trade_goods = lumber
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = HSE
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+1444.11.12 = { trade_goods = unknown }

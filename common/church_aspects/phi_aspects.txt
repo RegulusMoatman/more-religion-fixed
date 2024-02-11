@@ -1,0 +1,107 @@
+phi_fa = {
+	cost = 100
+	modifier = {
+		religious_unity = 0.25
+		tolerance_heretic = -1
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_then = {
+	cost = 100
+	modifier = {
+		global_missionary_strength = 0.02
+		tolerance_heathen = -1
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_deva = {
+	cost = 100
+	modifier = {
+		tolerance_own = 2
+		global_unrest = 1
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_naga = {
+	cost = 100
+	modifier = {
+		development_cost = -0.1
+		stability_cost_to_declare_war = 1
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_garuda = {
+	cost = 100
+	modifier = {
+		global_prosperity_growth = 0.1
+		global_unrest = 1
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_khwan = {	#Traditional remedy a.k.a drug to enhance warrior's prowess
+	cost = 100
+	modifier = {
+		infantry_power = 0.1
+		manpower_recovery_speed = -0.10
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_bun = {
+	cost = 100
+	modifier = {
+		land_morale = 0.15
+		diplomatic_upkeep = -1	
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_ricegoddess = {
+	cost = 100
+	modifier = {
+		global_trade_goods_size_modifier = 0.1
+		defensiveness = -0.10	
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
+
+phi_forest = {
+	cost = 100
+	modifier = {
+		land_forcelimit_modifier = 0.10	
+		global_regiment_cost = 0.15	
+	}
+	ai_will_do = {
+		factor = 15
+
+	}
+}
